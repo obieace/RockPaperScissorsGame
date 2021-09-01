@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 27, 2021, 11:21:19 AM
+    Author     : Owner
+*/
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    height: 100%;
+}
+
+.mainheader {
+    background-color: #007200;
+    color:#ebebeb;
+    font-family:cursive;
+    font-size: small;
+    padding: 5px;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align:center;
+}
+
+.mainbody {
+    background-color: #ccff33;
+    color: #004b23;
+    font-family:'Aclonica';
+    font-size:larger;
+    padding: 15px;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align:center;
+}
+
+.mainfooter {
+    background-color: #1b4332;
+    color:azure;
+    font-family:'Aclonica';
+    font-size: small;
+    padding: 15px;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align:center;
+}
+
+button {
+    background-color: #0077b6;
+    border:20px;
+    margin-right: 25px;
+    border-radius: 25px;
+    border-style:double; 
+    color: honeydew;
+}
+
+#play:hover {
+    background-color:red;
+    color: honeydew;
+}
+
+#yourName:hover {
+    background-color:red;
+    color: honeydew;
+}
+#back:hover {
+    background-color:red;
+    color: honeydew;
+}
+
+.RPS {
+   width: 150px;
+   height: 150px;
+   padding-top: 10px;
+}
+
+.RPSMain {
+    width: 200px;
+    height: 200px
+        
+}
