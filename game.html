@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Assignment 1 of Obinna Okoye</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href ="css/indexstyle.css">
+    
+    <div class ="container">
+        
+        <div class = "mainheader">
+            <img class="RPS" src ="RPS.jpg" alt "RPS.jpg" alt "RPS Image"> 
+            <hr>
+        </div>
+    </head>
+    
+ 
+    
+    <body><!-- comment -->
+        <div class="mainbody">
+       
+            
+    Click on the button below to enter your name: 
+    <br>
+    <br>
+     <button id= "yourName" onclick="yourName(); playGame();" >Enter your name</button>
+    
+     <br>
+   
+     <p><b>Final Score</b></p>
+     <p> You: 
+         <span id="yourScore">0</span>
+     </p>
+     
+     <p> Computer: 
+         <span id="compScore">0</span>
+     </p>
+     
+     <h3> <span id="winner" style="color:red;font-weight:bold"></span> </h3>
+  
+     <button id= "back" onclick="goBack()">Back</button>
+     <br>
+     <br> 
+   
+    </div>       
+        
+    </body>
+    
+    <footer>
+                
+                <div class= "mainfooter">
+                  <small> &copy;2021 Obinna Okoye. All rights reserved
+
+                    </small>        
+                </div>      
+</div>
+                
+     <script src="RPS.js"></script>   
+            </footer>  
+    
+    </html>
